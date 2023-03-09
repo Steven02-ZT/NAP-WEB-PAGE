@@ -1,0 +1,39 @@
+{
+  "locale":{
+    "en": "English",
+    "es": "Spanish"
+  },
+  "nav":{
+
+  },
+  "home":{
+    "tittle_h_section2": "What's BoxOF?",
+    "text1_h_section2": "It is a smart fiber optic box, for applications of fiber optic link distribution to the home, for transporting wide bandwidth internet signals.",
+    "text2_h_section2": "We provide an FTTx network solution, under an Asymmetric network format, which is designed to be easily installed by network builders, since it only requires one optical fiber to link up to 10 NAP's, thus minimizing investment costs.",
+    "button_h_section2": "Learn more",
+
+    "ventaja1_h": "It is possible to update the user in the NOC, from the customer's home, setting name, location, customer data, types of service.",
+    "ventaja2_h": "Control of the company's employees outsoursings",
+    "ventaja3_h": "Identify the NAP in the network, on the pole, in the street, in the neighborhood, and in the city.",
+    "ventaja4_h": "Allows to know the location of the NAP and the users served by Fiber Optic services, using the cell phone.",
+    "ventaja5_h": "Establishes communication between the NAP point and the NOC.",
+    
+    "tittle_h_part1_section4": "Need the world’s",
+    "tittle_h_part2_section4": "best Network",
+    "tittle_h_part3_section4": "Access Point?",
+    "button_h_section4": "Let's contact"
+  },
+  "general":{
+    "tittle_g_section1":"Functionality",
+    "tittle1_g_section3":"Advantages of BoxOf",
+    "tittle2_g_section3":"Advantages of asymmetric network",
+    "boxAd1_g_section3":"Control the network configuration starting from the backbone cable and its respective.",
+    "boxAd2_g_section3":"Control at the NOC, of the connections on the OLT side up to the ONU.",
+    "boxAd3_g_section3":"Verification of active services from the OLT to the ONU.",
+    "boxAd4_g_section3":"Visualize the connections in the NAP, from the OLT.",
+    "napAd1_g_section3":"NAP_BoXOF fiber optic distribution to users.",
+    "napAd2_g_section3":"Fiber optic cable for interconnection between NAPs.",
+    "napAd3_g_section3":"Fiber optic cable for interconnection between NAPs.",
+    "napAd4_g_section3":"Only a single splice is needed per fusion, per fiber optic strand of the ISP's main network."
+  }
+}

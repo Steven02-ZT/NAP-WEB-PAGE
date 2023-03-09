@@ -1,0 +1,460 @@
+@media (max-width:4096px) {
+  #box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+  }
+
+  #info_section1_f {
+    color: white;
+    height: 100vh;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #info_section1_f>.tittle_info_section1_f {
+    font-size: var(--tittle);
+    letter-spacing: 0.7em;
+    color: #faebd7;
+    z-index: 1;
+  }
+
+  .info2_section1_f {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .info2_section1_f .images_section1_f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info2_section1_f div>#star {
+    height: 300px;
+    width: 300px;
+  }
+
+  .info2_section1_f div>#satellite {
+    height: 100px;
+    width: 100px;
+  }
+
+  .info2_section1_f>.info {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    width: 80%;
+  }
+
+  .info2_section1_f>.info h2 {
+    font-size: var(--subtittle);
+    background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #2af3b7);
+    background-size: 200% 200%;
+    background-clip: text;
+    color: transparent;
+    padding-bottom: 70px;
+  }
+
+  .info2_section1_f>.info p {
+    font-size: var(--base);
+  }
+
+  /*section2*/
+  #section2_f {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .hero {
+    width: 100%;
+    min-height: 100%;
+    left: 0;
+  }
+
+  .scrollElement {
+    position: absolute;
+    height: 6000px;
+    width: 100px;
+    top: 0;
+    z-index: 0;
+  }
+
+  .back1,.back2,.back3{
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .back1{
+    background: rgb(242,143,0);
+  background: linear-gradient(0deg, rgba(242,143,0,1) 0%, rgba(122,61,123,1) 50%, rgba(3,63,122,1) 100%);
+  }
+  .back2{
+    background: rgb(242,143,0);
+    background: linear-gradient(0deg, rgba(242,143,0,1) 0%, rgba(122,3,53,1) 100%);
+  }
+
+  .back3{
+    background: rgb(122,3,53);
+background: linear-gradient(0deg, rgba(122,3,53,1) 0%, rgba(242,0,236,1) 100%);
+  }
+
+  .olt-1 {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/011/651/226/small/newyork-city-highrise-skyline-simplicity-flat-design-free-png.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 400px;
+  }
+
+  .olt-2 {
+    background: url(https://static.vecteezy.com/system/resources/previews/011/651/324/original/newyork-city-highrise-skyline-simplicity-flat-design-free-png.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 350px;
+  }
+
+  .olt-3 {
+    background: url(https://foxonline.temple.edu/animations/sites/animations/files/2021-03/building.png) 0 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 100%;
+    height: 100%;
+    background-size: auto 450px;
+    background-repeat: no-repeat;
+  }
+
+  .olt-4 {
+    -webkit-animation: parallax_fg linear 200s infinite both;
+    animation: parallax_fg linear 200s infinite both;
+    background: url(https://static.vecteezy.com/system/resources/previews/015/119/404/original/fog-ambient-long-black-background-free-png.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 468px;
+  }
+
+  .olt-5 {
+    background: url(https://cdn-icons-png.flaticon.com/512/1137/1137751.png);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 70%;
+    width: 100%;
+    height: 50%;
+    background-size: auto 100px;
+    background-repeat: no-repeat;
+  }
+
+  .odf-1 {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/012/806/443/small/mountain-ridge-free-png.png) 0 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    background-size: 450px 350px;
+    background-repeat: no-repeat;
+  }
+
+  .odf-2 {
+    background: url(https://cdn-icons-png.flaticon.com/512/3749/3749708.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    background-size: 150px 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .odf-3 {
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/008/853/904/small/mountain-ridge-free-png.png) 0 100%;
+    z-index: 1;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 168px;
+    background-repeat: no-repeat;
+  }
+
+  .odf-4 {
+    background: url(https://static.vecteezy.com/system/resources/previews/011/651/324/original/newyork-city-highrise-skyline-simplicity-flat-design-free-png.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 300px;
+  }
+
+  .layer-1 {
+    -webkit-animation: parallax_fg linear 20s infinite both;
+    animation: parallax_fg linear 20s infinite both;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/1.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 136px;
+  }
+
+  .layer-2 {
+    -webkit-animation: parallax_fg linear 30s infinite both;
+    animation: parallax_fg linear 30s infinite both;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/2.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 145px;
+  }
+
+  .layer-3 {
+    -webkit-animation: parallax_fg linear 55s infinite both;
+    animation: parallax_fg linear 55s infinite both;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/3.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 158px;
+  }
+
+  .layer-4 {
+    -webkit-animation: parallax_fg linear 75s infinite both;
+    animation: parallax_fg linear 75s infinite both;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/4.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 468px;
+  }
+
+  .layer-5 {
+    -webkit-animation: parallax_fg linear 95s infinite both;
+    animation: parallax_fg linear 95s infinite both;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/5.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 311px;
+  }
+
+  .layer-6 {
+    -webkit-animation: parallax_fg linear 120s infinite both;
+    animation: parallax_fg linear 120s infinite both;
+    background: url(https://www.pngkey.com/png/full/82-821171_the-buildings-building-animation-transparent.png) 0 100% repeat-x;
+    z-index: 1;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 400px;
+  }
+
+  .bike-1,
+  .bike-2 {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/24650/bike.png) 0 100% no-repeat;
+    z-index: 1;
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: auto 75px;
+  }
+
+  .bike-1 {
+    -webkit-animation: parallax_bike linear 10s infinite both;
+    animation: parallax_bike linear 10s infinite both;
+  }
+
+  .bike-2 {
+    -webkit-animation: parallax_bike linear 15s infinite both;
+    animation: parallax_bike linear 15s infinite both;
+  }
+
+
+  @-webkit-keyframes parallax_fg {
+    0% {
+      background-position: 2765px 100%;
+    }
+
+    100% {
+      background-position: 550px 100%;
+    }
+  }
+
+  @keyframes parallax_fg {
+    0% {
+      background-position: 2765px 100%;
+    }
+
+    100% {
+      background-position: 550px 100%;
+    }
+  }
+
+  @-webkit-keyframes parallax_bike {
+    0% {
+      background-position: -300px 100%;
+    }
+
+    100% {
+      background-position: 2000px 100%;
+    }
+  }
+
+  @keyframes parallax_bike {
+    0% {
+      background-position: -300px 100%;
+    }
+
+    100% {
+      background-position: 2000px 100%;
+    }
+  }
+
+  .info_section2_f {
+    margin-top: 10%;
+    padding-bottom: 10%;
+  }
+
+  .info_section2_f>h1 {
+    font-size: var(--tittle);
+  }
+}
+
+.loader span {
+  color: #faebd7;
+  text-shadow: 0 0 0 #faebd7;
+  -webkit-animation: loading 1s ease-in-out infinite alternate;
+}
+
+@keyframes loading {
+  to {
+    text-shadow: 20px 0 70px #032666;
+    color: #032666;
+  }
+}
+
+.loader span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+.loader span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+.loader span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+.loader span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+.loader span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+
+.loader span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+
+.loader span:nth-child(8) {
+  -webkit-animation-delay: 0.7s;
+}
+
+.loader span:nth-child(9) {
+  -webkit-animation-delay: 0.8s;
+}
+
+.loader span:nth-child(10) {
+  -webkit-animation-delay: 0.9s;
+}
+
+.loader span:nth-child(11) {
+  -webkit-animation-delay: 1s;
+}
+
+.loader span:nth-child(12) {
+  -webkit-animation-delay: 1.1s;
+}
+
+.loader span:nth-child(13) {
+  -webkit-animation-delay: 1.2s;
+}
+
+.loader span:nth-child(14) {
+  -webkit-animation-delay: 1.3s;
+}
+
+.loader span:nth-child(15) {
+  -webkit-animation-delay: 1.4s;
+}
+
+.loader span:nth-child(16) {
+  -webkit-animation-delay: 1.5s;
+}
+
+.loader span:nth-child(17) {
+  -webkit-animation-delay: 1.6s;
+}
+
+.loader span:nth-child(18) {
+  -webkit-animation-delay: 1.7s;
+}
+
+.loader span:nth-child(19) {
+  -webkit-animation-delay: 1.8s;
+}

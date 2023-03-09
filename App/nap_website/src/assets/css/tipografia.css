@@ -1,0 +1,27 @@
+:root{
+    --span: 16px;
+    --base: 20px;
+    --text: 25px;
+    --subtittle: 31.25px;
+    --tittle: 39.06px;
+    --header: 48.83px;
+    --big:61.04px;
+    --jumbo:76.29px;
+}
+
+@media (max-width:1000px) {
+    :root{
+        --span: 14px;
+        --base: 17.50px;
+        --text: 21.88px;
+        --subtittle: 27.34px;
+        --tittle: 34.18px;
+        --header: 42.72px;
+        --big:53.41px;
+        --jumbo:66.76px;
+    }
+}
+
+@media (max-width:750px) {
+
+}

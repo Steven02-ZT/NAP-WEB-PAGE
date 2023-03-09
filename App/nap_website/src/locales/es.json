@@ -1,0 +1,34 @@
+{
+    "locale":{
+        "en": "Ingles",
+        "es": "Español"
+      },
+    "home": {
+        "tittle_h_section2": "Qué es BoxOF?",
+        "text1_h_section2": "Es una caja inteligente de fibra óptica, para aplicaciones de distribución de enlaces de fibra óptica ala casa,para el transporte de señales de internet de ancho de banda.",
+        "text2_h_section2": "Proveemos una solución de red FTTx, bajo formato de red Asimétrica, que esta diseñada para ser de fácil instalación por parte de los constructores de redes, dado que solo requiere de una fibra óptica para enlazar hasta 10 NAP’s, con lo cual minimiza los costos de inversión.",
+        "button_h_section2": "Más información",
+        "ventaja1_h": "Es posible actualizar el usuario en el NOC,  desde casa de cliente, estableciendo nombre, ubicación, datos del cliente, tipos de servicio.",
+        "ventaja2_h": "Control de los empleados de la compañía  outsoursings",
+        "ventaja3_h": "Identifica la NAP en la red , en el poste, en la calle,  en la colonia , y en la ciudad.",
+        "ventaja4_h": "Permite conocer la ubicación de la NAP y los usuarios que sirve de servicios de Fibra Óptica, utilizando el móvil.",
+        "ventaja5_h": "Establece comunicación entre el punto de NAP y el NOC.",
+        "tittle_h_part1_section4": "¿Necesita el mejor",
+        "tittle_h_part2_section4": "punto de acceso a",
+        "tittle_h_part3_section4": "la red del mundo?",
+        "button_h_section4": "Pongámonos en contacto"
+    },
+    "general":{
+        "tittle_g_section1":"Funcionalidad",
+        "tittle1_g_section3":"Ventajas de BoxOf",
+        "tittle2_g_section3":"Ventajas de la red asimétrica",
+        "boxAd1_g_section3":"Controlar la configuración de red  a partir del cable troncal y su respectiva distribución por hilo de fibra.",
+        "boxAd2_g_section3":"Control en el NOC, de las conexiones  en el lado de la OLT hasta la ONU.",
+        "boxAd3_g_section3":"Verificación de servicios activos desde la OLT hasta la ONU.",
+        "boxAd4_g_section3":"Visualiza las conexiones en la NAP,  desde la OLT.",
+        "napAd1_g_section3":"NAP_BoXOF de distribución de fibra óptica a los usuarios.",
+        "napAd2_g_section3":"Cable de fibra óptica de interconexión entre NAP.",
+        "napAd3_g_section3":"Cable de acometida para entrega de servicios al cliente.",
+        "napAd4_g_section3":"Solamente se necesita un unico empalme por fusión, por hilo de fibra óptica de la red de principal del ISP."
+      }
+}

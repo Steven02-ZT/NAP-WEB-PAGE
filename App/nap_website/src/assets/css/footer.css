@@ -1,0 +1,27 @@
+footer{
+    bottom: 0;
+    height: auto;
+    position: relative;
+    z-index: 5;
+}
+
+@media (max-width:4906px) {
+    footer{
+        margin-left: 100px;
+        width: calc(100% - 100px);
+    }
+}
+
+@media (max-width:1000px) {
+   footer{
+    width: 100%;
+    margin-left: 0;
+   }
+}
+
+@media (max-width:450px) {
+    .end_footer{
+        height: 100px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,136 @@
+/*menu setting*/
+  @media (max-width:4096px) {
+    header{
+        width: 100px;
+        height: 100%;
+        position: fixed;
+        z-index: 99;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        top: 0;
+    }
+
+    header>.iconHeader{
+        margin-top: 10%;
+        font-size: var(--header);
+        display: inline-block;
+    }
+
+    #pc_menu{
+        visibility: visible;
+        display: block;
+    }
+
+    #mobile_menu,#iconBar{
+        visibility: hidden;
+        display: none;
+    }
+
+    nav{
+       height: 60vh;
+       margin-top: 10%;
+    }
+
+    nav>a,#LenguajeSwitcher{
+        display: block;
+        font-size: var(--base);
+        transform: rotate(-90deg);
+        padding: 40px;
+    }
+}
+
+
+@media (max-width:1000px){
+    header{
+        width: 100vw;
+        height: 150px;
+        text-align: start;
+    }
+
+    header>.iconHeader{
+        margin-left: 15%;
+        margin-top: 5%;
+    }
+
+    #pc_menu{
+        visibility: hidden;
+        display: none;
+    }
+
+    #mobile_menu,#iconBar{
+        visibility: visible;
+        display: unset;
+    }
+
+    nav{
+        display: grid;
+        transform: rotate(0deg);
+        height: auto;
+        margin-top: 0;
+        height: 60vh;
+    }
+
+    nav>a{
+        display: block;
+        transform: rotate(0);
+        font-size: var(--subtittle);
+        border-bottom: solid #454545;
+        width: 80%;
+        padding: 0;
+        padding-top: 25px;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    #iconBar{
+        margin-right: 15%;
+        margin-top: 5%;
+        font-size: var(--header);
+        display: inline-block;
+        float: right;
+    }
+}
+
+@media (max-height:500px) and (max-width:900px) {
+    header>.iconHeader, #iconBar{
+        margin-left: 15%;
+        margin-top: 2%;
+        font-size: var(--base);
+    }
+
+    nav{
+        height: 80vh;
+    }
+
+    nav>a{
+        width: 20%;
+        font-size: var(--span);
+        padding: 0;
+        background-color: black;
+    }
+}
+
+@media (max-width:450px) and ( orientation: portrait){
+
+    header>.iconHeader{
+        margin-top: 10%;
+        font-size: var(--subtittle);
+    }
+
+    nav{
+        height: 60vh;
+    }
+
+    nav>a{
+        font-size: var(--base);
+        padding-top: 10%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+
+    #iconBar{
+        margin-top: 10%;
+        font-size: var(--subtittle);
+    }
+}
