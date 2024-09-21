@@ -56,9 +56,9 @@
           <button className="bg-black text-white h-16 w-6/12 rounded-lg">
             check availability</button>
         </div>
-        <div className="w-full flex items-center justify-center w-6/12">
+        <div className="flex items-center justify-center w-6/12">
           <form action="" id="form_a_section2" className="w-7/12 shadow-md">
-            <h1 className="font-light text-orange-300 pt-5">Contact us</h1>
+            <h1 className="font-light text-orange-300 pt-5" style="font-size: var(--subtittle);text-align: center;">Contact us</h1>
             <ol className="grid justify-center">
               <li className="grid pt-5 text-gray-500 text-base">
                 <label for="name" style="font-size: var(--base);">Name:</label>
