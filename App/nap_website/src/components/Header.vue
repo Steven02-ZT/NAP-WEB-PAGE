@@ -16,9 +16,11 @@
         >General</RouterLink
       >
       <RouterLink :to="Tr.i18nRouter({name:'functionality'})" className="link font-light">Function</RouterLink>
-      <RouterLink :to="Tr.i18nRouter({ name: 'about' })" className="link font-light"
-        >About</RouterLink
-      >
+
+      <RouterLink :to="Tr.i18nRouter({ name: 'about' })" className="link font-light" >About</RouterLink>
+
+      <RouterLink to="Contant" className="link font-light">Contact Us</RouterLink>
+
       <LenguajeSwitcher id="LenguajeSwitcher"></LenguajeSwitcher>
     </nav>
 
